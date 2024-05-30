@@ -18,4 +18,3 @@ let myTimeStamp = Date.now()
 //console.log(myTimeStamp);
 //console.log(mycreateddate.getTime());
 console.log(Date.now()/1000);
-

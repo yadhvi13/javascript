@@ -32,19 +32,19 @@ console.log(typeof anotherId);  */
 
 //**********************************************/
 /* stack memory(PRIMITIVE DATATYPES) and heap memory(NON-PRIMITIVE)*/
- let myYoutubename = "hiteshchaoudharydotcom"
+let myYoutubename = "hiteshchaoudharydotcom"
 
- let anothername = "chaiaurcode"
- console.log(anothername);
- console.log(myYoutubename);
+let anothername = "chaiaurcode"
+console.log(anothername);
+console.log(myYoutubename);
 
 
- let user = {
-    email: "user@google.com",
-    upi: "user@ybl",
- }
- let usertwo = user
+let user = {
+   email: "user@google.com",
+   upi: "user@ybl",
+}
+let usertwo = user
 
- usertwo.email = "hitesh@google.com"
- console.log(user.email);
- console.log(usertwo.email);
+usertwo.email = "hitesh@google.com"
+console.log(user.email);
+console.log(usertwo.email);
