@@ -10,3 +10,8 @@ console.log(tutor);
 //----> destructure of objects
 
 // concepts of APIs 
+// in JSON also in form of array
+[
+    {},
+    {},
+]
