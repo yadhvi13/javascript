@@ -29,3 +29,14 @@ result2 = undefined
 # execution phase 
 value = 10
 value2 = 5
+
+#memory phase 
+val = undefined
+val2 = undefined
+total = undefined
+
+# execution context
+num1 = 10 === val
+num2 = 5 === val2
+total = 10 + 5
+return to global execution context;
