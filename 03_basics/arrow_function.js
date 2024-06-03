@@ -46,3 +46,12 @@ const addnum = (num1,num2) => ( num1 + num2)
 
 //const array=[2,5,7,8]
 //array.forEach(() => ())
+
+let val = 10
+let val2 = 5
+function addNum(num1,num2){
+    let total = num1 + num2
+    return total
+}
+let result1 = console.log(addNum(val,val2))
+let result2 = console.log(addNum(10,2))
