@@ -1,16 +1,36 @@
-const num = [1,2,3,4,5,6,7,8,9,10]
 
-//const newnums = num.map( (number)=>{
-//   return number + 10 
-//} )
+const mynums = [1,2,3]
+//const mytotal = mynums.reduce( function(accumulator,currentvalue) {
+//    console.log(`accumulator : ${accumulator} and curvalue: ${currentvalue}`);
+//    return accumulator + currentvalue
+//}, 0 )
 
-// CHAINING METHOD
-//const newnums = num.map().map().filter()
 
-const newnums = num
-              .map( (nums)=> nums*10)
-              .map( (nums)=> nums + 1 )
-              .filter( (nums)=> nums >= 40 )
-    
-console.log(newnums);
+// BY ARROW FUNCTION
+const mytotal = mynums.reduce( (accumulator,currentvalue)=>{
+      return accumulator + currentvalue
+},0 )
+console.log(mytotal);
 
+const shoppingcart = [
+    {
+    itemname : "js course",
+    price : 2999
+},
+{
+    itemname : "python course",
+    price : 1999
+},
+{
+    itemname : "java course",
+    price : 3999
+},
+{
+    itemname : "backened course",
+    price : 999
+},
+]
+const total = shoppingcart.reduce( (acc,item)=>{
+    return  acc + item.price
+},0 )
+console.log(total);
