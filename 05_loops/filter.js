@@ -61,10 +61,10 @@ const books = [
 },
 ];
 
-//let userbooks = books.filter( (bk)=> {
-//    return bk.genre == "history"
-//} )
-const userbooks = books.filter( (bk)=> {
-    return bk.publish >= 1995 && bk.genre==="history"
+let userbooks = books.filter( (bk)=> {
+   return bk.genre == "history"
 } )
+//const userbooks = books.filter( (bk)=> {
+//    return bk.publish >= 2004 && bk.genre==="history"
+//} )
 console.log(userbooks);
