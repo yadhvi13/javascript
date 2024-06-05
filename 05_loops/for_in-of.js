@@ -59,7 +59,7 @@ map.set('USA',"United State of America")
 map.set('Fr',"France")
 
 for (const key in mapping) {
-   // console.log(key);
+    console.log(key);
 }
 // here none result will get in forin
 
