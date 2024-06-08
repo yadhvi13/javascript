@@ -39,8 +39,15 @@ form.addEventListener('submit', function (e) {
 });
 ```
 
+## project link
+[Click here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
+
 # project-2(b)
-```
+
+# Solution Code
+
+```javascript 
+
 const clock = document.getElementById('clock');
 
 // 1000ms = 1 sec
