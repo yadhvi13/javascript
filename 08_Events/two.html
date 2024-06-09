@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Async JS Project</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const yogeeta = function(){
+        console.log("yogeeta");
+    }
+    setTimeout(yogeeta,2000)
+
+    const changeText = function(){
+       document.querySelector('h1').innerHTML = "sleeping Beauty"
+    }
+
+    const ChangeMe =  setTimeout(changeText,2000)
+    
+
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearTimeout(ChangeMe)
+        console.log("stopped");
+    })
+
+
+//    clearTimeout needs reference
+
+ // setTimeout(function(){
+ //   console.log("yogeeta");  
+ // },2000)
+   
+</script>
+</html>
