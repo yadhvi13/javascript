@@ -24,3 +24,11 @@ Object Literal
 - Inheritance     ---
 - Polymorphism    --- many ways of method
 
+## new keyword
+- empty {} means, empty object is generated
+- constructor function is called through new keyword
+- it combines all the argument (.this) keyword
+- we entered in function
+
+## constructor defination
+- reference of itself
