@@ -32,3 +32,12 @@ Object Literal
 
 ## constructor defination
 - reference of itself
+
+## Prototypial behaviour
+- javascript default behaviour is prototypial
+- it provides new,classes,this,inheritance
+
+## objects prototype--------> null
+- Array prototype is object
+- String prototype is object
+- function prototype is object
